@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -327,7 +328,7 @@ html body {
     
 }
 
- .elem{
+.elem{
 
     display: flex;
     align-items: center;
@@ -412,7 +413,51 @@ html body {
 }
 
 #footer{
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 5vh;
     height: 90vh;
     width: 100%;
     background-color: slateblue;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 190px 40px;
+    height: 90px;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    padding-top: 6%;
+    padding-left: 4%;
+}
+.footer-left p{
+    padding-top: 5%;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+.footer-right ul{
+    padding-top: 15px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 40px;
+    height: 90px;
 }
